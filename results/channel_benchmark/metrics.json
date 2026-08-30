@@ -1,0 +1,89 @@
+{
+  "configuration": {
+    "states_per_family": 48,
+    "replicates": 20,
+    "actions": 3,
+    "symbols": 64,
+    "separate_epochs": 100,
+    "unified_epochs": 140,
+    "seed": 21
+  },
+  "unified_best_validation_nll": -1.958324909210205,
+  "metrics": [
+    {
+      "family": "iid",
+      "samples": 2880,
+      "theta_dim": 1,
+      "baseline_test_nll": 0.10584861345216069,
+      "separate_validation_nll": -2.093895435333252,
+      "separate_test_nll": -1.8466582298278809,
+      "separate_parameters": 5519,
+      "best_validation_nll": -2.093895435333252,
+      "unified_validation_nll": -2.0981767177581787,
+      "unified_test_nll": -1.8589273691177368,
+      "unified_parameters": 12111,
+      "separate_gain_vs_baseline": 1.9525068432800416,
+      "unified_gain_vs_baseline": 1.9647759825698976
+    },
+    {
+      "family": "gilbert_elliott",
+      "samples": 2880,
+      "theta_dim": 4,
+      "baseline_test_nll": -0.545934359345508,
+      "separate_validation_nll": -2.030949592590332,
+      "separate_test_nll": -1.9822938442230225,
+      "separate_parameters": 5711,
+      "best_validation_nll": -2.030949592590332,
+      "unified_validation_nll": -2.0753533840179443,
+      "unified_test_nll": -2.0252490043640137,
+      "unified_parameters": 12111,
+      "separate_gain_vs_baseline": 1.4363594848775145,
+      "unified_gain_vs_baseline": 1.4793146450185057
+    },
+    {
+      "family": "fixed_burst",
+      "samples": 2880,
+      "theta_dim": 4,
+      "baseline_test_nll": -0.8362684457725303,
+      "separate_validation_nll": -2.1566028594970703,
+      "separate_test_nll": -2.1197519302368164,
+      "separate_parameters": 5711,
+      "best_validation_nll": -2.1566028594970703,
+      "unified_validation_nll": -2.2269442081451416,
+      "unified_test_nll": -2.195322036743164,
+      "unified_parameters": 12111,
+      "separate_gain_vs_baseline": 1.283483484464286,
+      "unified_gain_vs_baseline": 1.3590535909706336
+    },
+    {
+      "family": "markov_interference",
+      "samples": 2880,
+      "theta_dim": 4,
+      "baseline_test_nll": -0.747792258253698,
+      "separate_validation_nll": -1.8128316402435303,
+      "separate_test_nll": -2.1660311222076416,
+      "separate_parameters": 5711,
+      "best_validation_nll": -1.8128316402435303,
+      "unified_validation_nll": -1.8288301229476929,
+      "unified_test_nll": -2.178487777709961,
+      "unified_parameters": 12111,
+      "separate_gain_vs_baseline": 1.4182388639539436,
+      "unified_gain_vs_baseline": 1.430695519456263
+    },
+    {
+      "family": "log_gaussian_fading",
+      "samples": 2880,
+      "theta_dim": 4,
+      "baseline_test_nll": 0.14018392372760133,
+      "separate_validation_nll": -1.5287975072860718,
+      "separate_test_nll": -1.3941850662231445,
+      "separate_parameters": 5711,
+      "best_validation_nll": -1.5287975072860718,
+      "unified_validation_nll": -1.5623196363449097,
+      "unified_test_nll": -1.4737787246704102,
+      "unified_parameters": 12111,
+      "separate_gain_vs_baseline": 1.5343689899507458,
+      "unified_gain_vs_baseline": 1.6139626483980114
+    }
+  ]
+}
