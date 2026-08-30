@@ -12,6 +12,17 @@ data/*.pt
 results/*.png
 results/*.pt
 results/**/*.pt
+references/papers/*.pdf
+tmp/
+
+# Local research inputs and LaTeX intermediates
+drpt.md
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out
+report/*.pdf
 !data/.gitkeep
 !results/.gitkeep
 !results/likelihood_fit.png

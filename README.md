@@ -56,6 +56,14 @@ Values are held-out test NLL; lower is better. Exact metrics and configuration a
 
 ![Separate and unified channel-model benchmark](results/channel_benchmark/comparison.png)
 
+For the statistically repeated comparison, run:
+
+```bash
+python scripts/repeat_benchmark.py --no-resume
+```
+
+This trains both strategies across 30 independently generated seeds, checkpoints after every seed, and reports paired Student-t 95% confidence intervals. The committed raw results, aggregate statistics, and comparison plot are under `results/repeated_benchmark/`. The experimental design, equations, literature review, citation audit, and interpretation are documented in [`report/report.tex`](report/report.tex); a compiled PDF is under `output/pdf/`.
+
 ## What is modeled
 
 The package contains analytical, reproducible simulators for IID errors, Gilbert-Elliott good/bad channels, fixed bursts, ON/OFF Markov interference, and log-Gaussian fading with a squared-exponential (RBF) temporal-correlation kernel.
